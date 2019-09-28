@@ -1,7 +1,7 @@
 GitBook plugin: Insert logo
 ===========================
 
-NPM package [here](https://www.npmjs.com/package/gitbook-plugin-insert-logo)
+NPM package [here](https://www.npmjs.com/package/gitbook-plugin-insertarget-logo)
 
 ```
 npm i gitbook-plugin-insertarget-logo
