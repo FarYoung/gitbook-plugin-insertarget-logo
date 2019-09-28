@@ -1,11 +1,11 @@
 {
   "description": "GitBook Plugin to insert (url or file or base64) into the navigation above search input.",
-  "name": "gitbook-plugin-insertarget-logo",
+  "name": "gitbook-plugin-target-logo",
   "version": "0.1.6",
   "keywords": [
     "gitbook",
     "plugin",
-    "insertarget-logo",
+    "target-logo",
     "logo",
     "github"
   ],
@@ -39,6 +39,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FarYoung/gitbook-plugin-insertarget-logo.git"
+    "url": "git+https://github.com/FarYoung/gitbook-plugin-target-logo.git"
   }
 }
