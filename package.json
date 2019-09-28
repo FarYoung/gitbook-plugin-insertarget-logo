@@ -1,11 +1,11 @@
 {
   "description": "GitBook Plugin to insert (url or file or base64) into the navigation above search input.",
-  "name": "gitbook-plugin-insert-logo",
-  "version": "0.1.5",
+  "name": "gitbook-plugin-insertarget-logo",
+  "version": "0.1.6",
   "keywords": [
     "gitbook",
     "plugin",
-    "insert-logo",
+    "insertarget-logo",
     "logo",
     "github"
   ],
@@ -22,6 +22,11 @@
     "properties": {
       "url": {
         "type": "string",
+        "default": "http://www.example.com",
+        "title": "URL"
+      },
+      "src": {
+        "type": "string",
         "default": "http://www.example.com/my-logo.png",
         "title": "Logo URL"
       },
@@ -34,6 +39,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matusnovak/gitbook-plugin-insert-logo.git"
+    "url": "git+https://github.com/FarYoung/gitbook-plugin-insertarget-logo.git"
   }
 }
