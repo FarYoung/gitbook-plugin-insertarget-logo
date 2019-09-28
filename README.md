@@ -11,7 +11,7 @@ The following plugin inserts a logo into the navigation bar (above the summary a
 
 ```json
 {
-    "plugins": ["insert-logo", "another plugin 1", "another plugin 2"]
+    "plugins": ["insertarget-logo", "another plugin 1", "another plugin 2"]
 }
 ```
 
@@ -19,9 +19,9 @@ You will also need to provide url for the logo. The url can be local file, a rem
 
 ```json
 {
-    "plugins": ["insert-logo", "another plugin 1", "another plugin 2"],
+    "plugins": ["insertarget-logo", "another plugin 1", "another plugin 2"],
     "pluginsConfig": {
-        "insert-logo": {
+        "insertarget-logo": {
             "url": "http://www.example.com",
             "src": "http://www.example.com/my-logo.png",
             "style": "background: none;"
